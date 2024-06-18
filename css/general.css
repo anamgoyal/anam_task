@@ -1,0 +1,42 @@
+
+:root {
+    --light-blue-clr: #f3f6f9;
+    --black-clr1:#181c32;
+    --black-clr: #151515;
+    --white-clr: #fff;
+    --grey-clr: #606060;
+    --red-clr: #de3439;
+    --pink-clr: #fbf9f6;
+}
+
+/* Color Css */
+.light-blue-clr{color: var(--light-blue-clr);}
+.black-clr1{color: var(--black-clr1);}
+.black-clr{color: var(--black-clr);}
+.white-clr{color:var(--white-clr)}
+.grey-clr{color: var(--grey-clr);}
+.red-clr{color: var(--red-clr);}
+.pink-clr{color: var(--pink-clr);}
+
+/* Font Weight Css */
+.w500{font-weight: 500;}
+.w700{font-weight: 700;}
+.w800{font-weight: 800;}
+
+/* Font Size Css */
+.f-14 {font-size: 14px;}
+.f-15 {font-size: 15px;}
+.f-16 {font-size: 16px;}
+.f-28{font-size: 28px;}
+.d-none{display:none !important}
+
+@media(min-width:768px) {
+    .f-md-18 {font-size: 18px;}
+    .f-md-20{font-size: 20px;}
+    .f-md-23{font-size: 23px;}
+    .f-md-36{font-size: 36px;}
+    .f-md-40{font-size: 40px;}
+    .f-md-50{font-size: 50px;}
+    .f-md-60{font-size: 60px;}
+    .d-md-block{display:block !important}
+}
